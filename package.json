@@ -1,0 +1,21 @@
+{
+  "name": "bgmi-tournament-bot",
+  "version": "1.0.0",
+  "description": "Standalone BGMI tournament bot (registration, groups, slot manager, rounds) — split out of the T3 + Rebound merged bot",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "migrate": "node migrate-from-scrims-bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "pg": "^8.11.5",
+    "sharp": "^0.33.5"
+  }
+}
